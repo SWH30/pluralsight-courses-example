@@ -1,8 +1,8 @@
 # An example project using React, Redux & React Router
 This is a project that's been developed based on the React/Redux pluralsight course.
-It's not a complete project i.e. add project/save project don't currently work as intended and it currently uses a Mock API that simulates a back-end project.
+It's not a complete project as it currently uses a Mock API that simulates a back-end project.
 
-The project uses a Golang web server developed using the Gin Web Framework.
+The project uses a Golang web server developed using the Gin Web Framework. This was just for practice purposes any web framework could be used instead.
 
 ## Prerequisites 
 There are a couple of things that need to be installed prior to running the project:
@@ -19,7 +19,7 @@ As this project utilises Go it must be run within the GOPATH. After pulling/clon
 ```bash
 $HOME/go/src/
 ```
-Then open a terminal at the location of this directory (`i.e. $HOME/go/src/example-project`) and run the following commands to install all dependencies:
+Then open a terminal at the location of this directory (`i.e. $HOME/go/src/pluralsight-courses-example`) and run the following commands to install all dependencies:
 ```bash
 yarn install-all
 ```
