@@ -1,0 +1,33 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:mocha/recommended"
+    ],
+    "plugins": [
+      "react",
+      "mocha"
+    ],
+    "rules": {
+      "semi": "error",
+      "no-var":"error"
+      },
+    "env": {
+      "es6": true,
+      "amd": true,
+      "node": true,
+      "browser": true
+    },
+    "settings": {
+      "react": {
+        "version": "16.5.0"
+      }
+    }
+  }
